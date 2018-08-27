@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #FFFFE0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding:30px;
+ font: 100px;
+}
+
+#main {
+  background-color: #87CEEB;
+  width: 50%;
+  margin: 40px auto;
+  padding: 15px; 
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+input[type=text], input[type=email], input[type=number], select {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.multichoice {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border: 2px solid #6E9887;
+}
+
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  margin: 10px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #D1EEEE;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: hsl(275, 75%, 75%);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #main {
+    width: 90%;
+  }
+}
+

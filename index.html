@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="main">
+<header>
+  <h1 id="title">USER SURVEY</h1>
+  <hr>
+  <p id="description">Please enter your details below.</p>
+</header>
+<form id="survey-form">
+  <label for="name" id="name-label" >Name:</label>
+  <input type="text" id="name" name="name" placeholder="Jane Eyre" required>
+  <br />
+  <label for="email" id="email-label">E-Mail:</label>
+  <input type="email" id="email" name="email" placeholder="janeeyre@gmail.com" required>
+  <br />
+  <label for="age" id="number-label">age:</label>
+  <input type="number" id="number" name="age" placeholder="Age" min="1" max="120">
+  <br />
+  <label for="dropdown" id="dropdown-label">Which best describes you?</label>
+  <select name="dropdown" id="dropdown">
+    <option value="student">student</option>
+    <option value="resident">unemployed</option>
+    <option value="employed">employed</option>
+  </select>
+  <br />
+  <div class="multichoice">
+  <label for="email-freq">How often would you like to receive emails?</label><br />
+  <input type="radio" name="email-freq" value="monthly">Monthly<br />
+  <input type="radio" name="email-freq" value="weekly">Weekly<br />
+    <input type="radio" name="email-freq" value="daily">Daily</div><br />
+  <div class="multichoice">
+  <label>Which topics are you interested in hearing about? <br />
+    <input type="checkbox" name="topics" value="science">Tech<br />
+    <input type="checkbox" name="topics" value="music">Music<br />
+    <input type="checkbox" name="topics" value="children">Design<br />
+    <input type="checkbox" name="topics" value="authors">Books<br />
+    </label></div>
+  <label for="comments">Any other comments or suggestions?</label><br />
+  <textarea id="comments" rows="10" cols="40">Enter your comment here...</textarea><br />
+  <input type="submit" id="submit">
+</form>
+</div>
+<footer>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+
+  
+
+</body>
+
+</html>
